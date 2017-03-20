@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	//Declare variables
 	var smallNumber, largeNumber, remainder int
 	//Ask the user for a small number
