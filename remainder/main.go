@@ -5,10 +5,10 @@ import "fmt"
 func main(){
 	//Declare variables
 	var smallNumber, largeNumber, remainder int
-	//Ask the user fot a small number
+	//Ask the user for a small number
 	fmt.Print("Enter a small number:")
 	fmt.Scan(&smallNumber)
-	//Ask the user fot a large number
+	//Ask the user for a large number
 	fmt.Print("Enter a large number:")
 	fmt.Scan(&largeNumber)
 
