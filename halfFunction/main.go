@@ -9,10 +9,10 @@ func main() {
 	fmt.Println(half(num))
 }
 
-func half(x int) (int, bool) {
+func half(x int) (float64, bool) {
 	if x%2 == 0 {
-		return x / 2, true
+		return float64(x) / 2, true
 	} else {
-		return x / 2, false
+		return float64(x) / 2, false
 	}
 }
